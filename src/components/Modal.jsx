@@ -28,7 +28,7 @@ function Modal({ handleCloseModal, setThanksModal }) {
             <StyledModal >
                 <StyledTopComponent >
                     <h2>Back this project</h2>
-                    <CloseModalBtn onClick={() => handleCloseModal()}><img src="../../public/images/icon-close-modal.svg" alt="" /></CloseModalBtn>
+                    <CloseModalBtn onClick={() => handleCloseModal()}><img src="/crowdfunding/public/images/icon-close-modal.svg" alt="" /></CloseModalBtn>
                 </StyledTopComponent>
                 <p>Want to support us in bringing Mastercraft Bamboo Monitor Riser out in the world?</p>
 

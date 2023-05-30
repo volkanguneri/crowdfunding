@@ -25,12 +25,6 @@ function Selected({ minPledgeValue, closeModal, setThanksModal }) {
         }
     }
 
-    // const handleInputBlur = () => {
-    //     if (!value || value === `$ ${minPledgeValue}`) {
-    //         setValue(`$ ${minPledgeValue}`);
-    //     }
-    // }
-
     return (
         <StyledSelected>
             <small>Enter your pledge</small>
