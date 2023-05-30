@@ -93,7 +93,7 @@ Error generating stack: `+o.message+`
     justify-content:center;
     align-items:top;
     gap:1.25em;
-    background:url('/public/images/image-hero-mobile.jpg') top center/ cover no-repeat;
+    background:url('./public/images/image-hero-mobile.jpg') top center/ cover no-repeat;
     margin-left:auto;
     margin-right:auto;
     color:white;
