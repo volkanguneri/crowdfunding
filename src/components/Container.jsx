@@ -25,12 +25,12 @@ function Container({ handleOpenModal }) {
 
   return (
     <StyledContainer>
-      <LogoMastercraft src="../../public/images/logo-mastercraft.svg" alt="logo Mastercraft" />
+      <LogoMastercraft src="/crowdfunding/images/logo-mastercraft.svg" alt="logo Mastercraft" />
       <h1>Mastercraft Bamboo Monitor Riser</h1>
       <p>{isSmallScreen ? "A beautifully handcrafted monitor stand to reduce neck and eye strain." : "A beautiful & handcrafted monitor stand to reduce neck and eye strain."}</p>
       <BottonDiv>
         <StyledBackBotton onClick={(e) => handleClick(e)}>Back this project</StyledBackBotton>
-        <StyledBookmarkBotton onClick={(e) => bookMarked(e)} isBookmarked={isBookmarked}><img src="../../public/images/icon-bookmark.svg" alt="bookmark button" />{isBookmarked && !isSmallScreen ? "Bookmarked" : isSmallScreen ? "" : "Bookmark"}</StyledBookmarkBotton>
+        <StyledBookmarkBotton onClick={(e) => bookMarked(e)} isBookmarked={isBookmarked}><img src="/crowdfunding/images/icon-bookmark.svg" alt="bookmark button" />{isBookmarked && !isSmallScreen ? "Bookmarked" : isSmallScreen ? "" : "Bookmark"}</StyledBookmarkBotton>
       </BottonDiv>
     </StyledContainer>
   )
