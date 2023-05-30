@@ -6,14 +6,14 @@ export const StyledHeader = styled.header`
     justify-content:center;
     align-items:top;
     gap:1.25em;
-    background:url('${import.meta.env.BASE_URL}public/images/image-hero-mobile.jpg') top center/ cover no-repeat;
+    background:url('public/images/image-hero-mobile.jpg') top center/ cover no-repeat;
     margin-left:auto;
     margin-right:auto;
     color:white;
 
 
 @media screen and (min-width:700px) {
-    background:url('${import.meta.env.BASE_URL}public/images/image-hero-desktop.jpg') top center/ cover no-repeat;
+    background:url('public/images/image-hero-desktop.jpg') top center/ cover no-repeat;
     width:100%;
     height:100%;
     padding-bottom:9.5em;
