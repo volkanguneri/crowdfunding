@@ -13,7 +13,7 @@ export const StyledHeader = styled.header`
 
 
 @media screen and (min-width:700px) {
-    background:url('/public/images/image-hero-desktop.jpg') top center/ cover no-repeat;
+    background:url('${import.meta.env.BASE_URL}public/images/image-hero-desktop.jpg') top center/ cover no-repeat;
     width:100%;
     height:100%;
     padding-bottom:9.5em;
