@@ -18,8 +18,6 @@ function App() {
   const [open, setOpen] = useState(false)
 
 
-
-
   const handleOpenModal = () => {
     setIsModalOpen(true)
   }
@@ -31,6 +29,7 @@ function App() {
   const handleGotItBtn = () => {
     setThanksModal(false)
   }
+
 
   return (
     <StyledOverlay open={open} isModalOpen={isModalOpen} thanksModal={thanksModal}>

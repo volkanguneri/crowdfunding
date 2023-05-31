@@ -2,10 +2,9 @@ import { useState } from 'react'
 import { StyledSelected, InputButton } from './styles/Modal.styled'
 
 
-function Selected({ minPledgeValue, closeModal, setThanksModal }) {
+function Selected({ minPledgeValue, closeModal }) {
 
     const [value, setValue] = useState('')
-    // const [gotItBtn, setGotItBtn] = useState(true)
 
     const handleInputChange = (e) => {
         const inputValue = e.target.value;
@@ -19,7 +18,6 @@ function Selected({ minPledgeValue, closeModal, setThanksModal }) {
         const parsedMinPledgeValue = parseInt(minPledgeValue.replace(/[^0-9]/g, ''), 10); // Convert minPledgeValue to number
         if (parsedValue >= parsedMinPledgeValue) {
             closeModal()
-            // setGotItBtn(!gotItBtn)
         } else {
             alert(`Please enter a pledge greater than or equal to ${minPledgeValue}`)
         }
@@ -33,7 +31,6 @@ function Selected({ minPledgeValue, closeModal, setThanksModal }) {
                     type="text"
                     value={value}
                     onChange={handleInputChange}
-                    // onBlur={handleInputBlur}
                     placeholder={minPledgeValue ? minPledgeValue : minPledgeValue = '$ 0'}
                 />
                 <button onClick={() => {
